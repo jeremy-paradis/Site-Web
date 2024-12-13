@@ -1,0 +1,45 @@
+body {margin: 0%;}
+
+#photo{ 
+    background-color: #333;
+    padding: 8px 15px;
+    
+    text-align: center;
+}
+
+
+h1{ text-decoration: none;
+  background-image: url("/image/fond.jpg");
+  
+}
+p{
+  font-size: 20px;
+  text-align: center;
+}
+/*barre de navigation*/
+.navbar {
+    display: flex;
+    justify-content: center; 
+    background-color: #333; 
+    padding: 10px 0; 
+    position: sticky; 
+    top: 0;
+    z-index: 1000; 
+  }
+
+  .navbar a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+  }
+
+  .navbar a:hover {
+    background-color: #555; 
+  }
+
+#video {text-align: center;}
+
+
