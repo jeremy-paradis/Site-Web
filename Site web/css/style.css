@@ -1,0 +1,241 @@
+
+body {margin: 0%;}
+
+#photo{ 
+    background-color: #333;
+    padding: 8px 15px;
+    
+    text-align: center;
+}
+
+
+h1{ text-decoration: none;
+  background-image: url("/image/fond.jpg");
+  
+}
+p{
+  font-size: 20px;
+  text-align: center;
+}
+/*barre de navigation*/
+.navbar {
+    display: flex;
+    justify-content: center; 
+    background-color: rgb(51, 51, 51); 
+    padding: 20px 0; 
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+    font-size:100%; 
+    font-weight:bold;
+  }
+
+  .navbar a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+  }
+
+  .navbar a:hover {
+    background-color: #555; 
+  }
+
+#video {text-align: center;}
+
+/*css alhambra */
+
+.alhambra{
+  padding-left:95px;
+  text-align: center;
+  width:90%;
+}
+.titre{
+  font-size:30px;
+  padding: 20px;
+  margin:0px 88px;
+  margin-bottom:2px;
+  color:darkolivegreen;
+  
+}
+.para{
+  font-size:35px;
+  text-align:justify;
+  font-family: 'Segoe UI';
+   padding:20px;
+   margin:-50px 88px;
+   margin-bottom:30px;
+   
+   
+
+}
+.al{
+  width:47%;
+  margin-left:60px; 
+  max-width: 100%;
+  margin:-55px; 
+  height: auto; 
+ 
+}
+.pom{
+  text-align:justify;
+  font-size:30px;
+  font-family: 'Segoe UI';
+  padding:20px;
+  max-width: 100%;
+  margin-top:2% 20px 630px;
+  margin-left:3%;
+
+}
+  
+
+.videoAL{
+        width:45%;
+        height:500px;
+          max-width: 100%;
+          margin-top:0% 10px 690px ;
+          margin-left:2%;
+          padding:20px
+      }
+
+  #cote{ display: flex;
+      align-items: center;
+
+  }
+#text{
+  display: flex;
+  align-items: center;}
+
+  /* css index*/
+
+  #sphere{
+            width:55%;
+           height:460px;
+            border-radius: 15px; 
+            border: 2px solid;
+            margin-left:390px;
+           
+}
+#h2{
+    text-align: center;
+    font-size:250%;
+    margin: auto;
+}
+#titreindex{
+            position: absolute;
+            top: 30%; 
+            left: 25%; 
+            transform: translate(-50%, -50%);
+            color: white; 
+            font-size:35px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+          }
+h4{
+  position:absolute;
+    top: 40%;
+    left:22%; 
+    color: white; 
+    font-size:28px; 
+  }
+  h5{
+      position:absolute;
+      top:45%;
+      left:23%; 
+      color: white; 
+      font-size: 35px;  
+      font-weight:normal;
+  }
+  #stanislas{
+              width:55%;
+              height:460px;
+              border-radius: 15px; 
+              border: 3px solid;
+              margin-left:390px;
+              margin-top:50px;
+  }
+  #titreindex2{
+                position:absolute;
+                top: 83%;
+                left:65%; 
+                color: white; 
+                font-size:28px;  
+  }
+
+  #h4place{
+            position:absolute;
+            top: 96%;
+            left:50%; 
+            color: white; 
+            font-size:28px;  
+          
+  }
+  #h5place{
+            position:absolute;
+            top:101%;
+            left:46%; 
+            color: white; 
+            font-size: 35px;  
+            font-weight:normal;
+            text-align: right;
+  }
+  
+  #imgAL{
+    width:55%;
+    height:460px;
+    border-radius: 15px; 
+    border: 3px solid;
+    margin-left:390px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#titreindex3{
+      position:absolute;
+      top: 138%;
+      left:22%; 
+      color: white; 
+      font-size:28px;  
+}
+
+#h4al{
+  position:absolute;
+  top: 149%;
+  left:22%; 
+  color: white; 
+  font-size:28px;  
+}
+#h5al{
+  position:absolute;
+  top:154%;
+  left:23%; 
+  color: white; 
+  font-size: 35px;  
+  font-weight:normal;
+  
+}
+
+nav{
+  border:1px;
+  border-style:solid;
+  background-color: rgb(51, 51, 51);
+  height:315px;
+}
+.bas{
+  padding:60px 25% 1px;
+  color: white; 
+  font-size: 35px;
+}
+.tel{
+  padding:30px 42% 3px;
+  color: white; 
+  font-size: 28px;
+  font-weight: normal;
+}
+.gmail{
+        padding:1px 42%;
+        color: white; 
+        font-size: 25px;
+        font-weight: normal;
+      
+}
